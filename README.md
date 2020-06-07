@@ -1,1 +1,0 @@
-# fos-trigger-event
