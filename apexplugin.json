@@ -1,7 +1,7 @@
 {
     "name":"FOS - Trigger Event"
    ,"version":"20.1.0"
-   ,"description":"\u003Cp\u003ETriggers an event on the affected elements with an optional data object.\u003C\/p\u003E"
+   ,"description":"A dynamic action to declaratively trigger an event. This could be used to jump from one dynamic action to another. The event is triggered on all affected elements, and can contain an extra data object."
    ,"keywords":[
         "trigger"
        ,"event"

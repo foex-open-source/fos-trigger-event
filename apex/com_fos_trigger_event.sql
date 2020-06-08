@@ -37,9 +37,9 @@ prompt APPLICATION 102 - FOS Dev
 --     PLUGIN: 8354320589762683
 --     PLUGIN: 50031193176975232
 --     PLUGIN: 34175298479606152
---     PLUGIN: 2657630155025963
 --     PLUGIN: 35822631205839510
 --     PLUGIN: 14934236679644451
+--     PLUGIN: 2657630155025963
 --   Manifest End
 --   Version:         19.2.0.00.18
 --   Instance ID:     250144500186934
@@ -114,11 +114,11 @@ wwv_flow_api.create_plugin(
 ,p_standard_attributes=>'ITEM:BUTTON:REGION:JQUERY_SELECTOR:JAVASCRIPT_EXPRESSION:TRIGGERING_ELEMENT:EVENT_SOURCE:REQUIRED'
 ,p_substitute_attributes=>false
 ,p_subscribe_plugin_settings=>true
-,p_help_text=>'<p>Triggers an event on the affected elements with an optional data object.</p>'
+,p_help_text=>'A dynamic action to declaratively trigger an event. This could be used to jump from one dynamic action to another. The event is triggered on all affected elements, and can contain an extra data object.'
 ,p_version_identifier=>'20.1.0'
 ,p_about_url=>'https://fos.world'
 ,p_plugin_comment=>wwv_flow_string.join(wwv_flow_t_varchar2(
-'@fos-export',
+'// Settings for the FOS browser extension',
 '@fos-auto-return-to-page',
 '@fos-auto-open-files:js/script.js'))
 ,p_files_version=>168
