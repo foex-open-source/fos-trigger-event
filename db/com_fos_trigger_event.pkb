@@ -1,5 +1,6 @@
-CREATE OR REPLACE PACKAGE BODY COM_FOS_TRIGGER_EVENT
-IS
+create or replace package body com_fos_trigger_event
+as
+
 function render
     ( p_dynamic_action apex_plugin.t_dynamic_action
     , p_plugin         apex_plugin.t_plugin
@@ -48,7 +49,8 @@ begin
 
     return l_result;
 end;
-END COM_FOS_TRIGGER_EVENT;
+
+end;
 /
 
 
