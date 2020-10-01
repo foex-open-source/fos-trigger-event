@@ -3,7 +3,7 @@
 /* globals apex,$s */
 
 var FOS = window.FOS || {};
-FOS.util = FOS.util || {};
+FOS.utils = FOS.utils || {};
 
 /**
  * A dynamic action to declaratively trigger an event on all affected elements, an extra data object can be added to the event.
@@ -15,7 +15,7 @@ FOS.util = FOS.util || {};
  * @param {string}   [config.data]                  Some data that will be passed to the raised event
  * @param {function} [config.dataFunction]          JS function which will be evaluated and its return passed as data object to the event
  */
-FOS.util.trigger = function (daContext, config) {
+FOS.utils.trigger = function (daContext, config) {
     var pluginName = config.pluginName;
     apex.debug.info(pluginName, config);
 

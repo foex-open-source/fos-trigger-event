@@ -107,7 +107,7 @@ begin
 
     apex_json.close_object;
 
-    l_result.javascript_function := 'function(){FOS.util.trigger(this, ' || apex_json.get_clob_output || ');}';
+    l_result.javascript_function := 'function(){FOS.utils.trigger(this, ' || apex_json.get_clob_output || ');}';
 
     apex_json.free_output;
 
