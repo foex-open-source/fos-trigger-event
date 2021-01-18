@@ -1,5 +1,3 @@
-
-
 prompt --application/set_environment
 set define off verify off feedback off
 whenever sqlerror exit sql.sqlcode rollback
@@ -36,13 +34,14 @@ prompt APPLICATION 102 - FOS Dev - Plugin Master
 --   Manifest
 --     PLUGIN: 61118001090994374
 --     PLUGIN: 134108205512926532
+--     PLUGIN: 547902228942303344
 --     PLUGIN: 168413046168897010
 --     PLUGIN: 13235263798301758
 --     PLUGIN: 37441962356114799
 --     PLUGIN: 1846579882179407086
 --     PLUGIN: 8354320589762683
 --     PLUGIN: 50031193176975232
---     PLUGIN: 34175298479606152
+--     PLUGIN: 106296184223956059
 --     PLUGIN: 35822631205839510
 --     PLUGIN: 2674568769566617
 --     PLUGIN: 14934236679644451
@@ -50,6 +49,7 @@ prompt APPLICATION 102 - FOS Dev - Plugin Master
 --     PLUGIN: 2657630155025963
 --     PLUGIN: 284978227819945411
 --     PLUGIN: 56714461465893111
+--     PLUGIN: 98648032013264649
 --   Manifest End
 --   Version:         19.2.0.00.18
 --   Instance ID:     250144500186934
@@ -196,7 +196,7 @@ wwv_flow_api.create_plugin(
 '<h3>Multiple Events</h3>',
 '<p>You can also fire multiple events by comma separating them, as well as defining the "data" object that is passed into the event in case you need to transfer extra information. Why wouldn''t I just use multiple actions instead? Our goal is to focus '
 ||'on efficiency and reduce the overall number of actions that developers create. Since we''re firing an event already, we thought we should give you the ability to fire multiple events.</p>'))
-,p_version_identifier=>'20.1.1'
+,p_version_identifier=>'20.2.0'
 ,p_about_url=>'https://fos.world'
 ,p_plugin_comment=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '// Settings for the FOS browser extension',
@@ -748,7 +748,5 @@ end;
 /
 set verify on feedback on define on
 prompt  ...done
-
-
 
 

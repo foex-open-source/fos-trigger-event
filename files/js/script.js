@@ -1,5 +1,3 @@
-
-
 /* globals apex,$s */
 
 var FOS = window.FOS || {};
@@ -125,6 +123,4 @@ FOS.utils.trigger = function (daContext, config) {
         }
     }
 };
-
-
 

@@ -1,5 +1,3 @@
-
-
 create or replace package body com_fos_trigger_event
 as
 
@@ -117,7 +115,5 @@ end render;
 
 end;
 /
-
-
 
 
