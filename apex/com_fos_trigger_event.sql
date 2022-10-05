@@ -205,7 +205,7 @@ wwv_flow_api.create_plugin(
 '<h3>Multiple Events</h3>',
 '<p>You can also fire multiple events by comma separating them, as well as defining the "data" object that is passed into the event in case you need to transfer extra information. Why wouldn''t I just use multiple actions instead? Our goal is to focus '
 ||'on efficiency and reduce the overall number of actions that developers create. Since we''re firing an event already, we thought we should give you the ability to fire multiple events.</p>'))
-,p_version_identifier=>'21.2.0'
+,p_version_identifier=>'22.1.0'
 ,p_about_url=>'https://fos.world'
 ,p_plugin_comment=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '// Settings for the FOS browser extension',
